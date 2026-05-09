@@ -662,23 +662,23 @@ mindmap
       报错函数
       双重编码绕过
     命令注入
-      管道 |
-      分号 ;
+      "管道 |"
+      "分号 ;"
       whoami/cat/id
-      命令替换 $()
+      "命令替换$()"
     XSS
       脚本标签
       16种事件处理器
-      javascript:/vbscript:
-      data:text/html
+      "javascript:/vbscript:"
+      "data:text/html"
     SSRF
       内网地址封锁
-      file://协议
-      dict://gopher://
-      sftp://ldap://
+      "file://协议"
+      "dict://gopher://"
+      "sftp://ldap://"
     路径遍历
-      ../
-      ..\\
+      "../"
+      "..\\"
       8种URL编码变体
       Windows路径
     敏感参数
@@ -686,8 +686,8 @@ mindmap
       trace/profile
       admin/console
     CRLF注入
-      %0d%0a编码
-      \\r\\n注入
+      "%0d%0a编码"
+      "\\r\\n注入"
       HTTP响应头分裂
     0day防护
       Log4j JNDI
