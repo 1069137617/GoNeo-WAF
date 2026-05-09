@@ -18,4 +18,4 @@ Thumbs.db
 vendor/
 
 # 本地推送脚本（不推送到远程）
-push_both.ps1
+push_both.*
