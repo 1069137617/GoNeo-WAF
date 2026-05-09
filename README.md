@@ -728,6 +728,24 @@ mindmap
 | go.uber.org/zap | 结构化日志 | 是 |
 | github.com/lionsoul2014/ip2region/binding/golang | IP 地理位置查询 | 是 |
 
+## 十二、版权与许可
+
+本项目采用 **Apache 2.0 协议** 开源，您可以自由使用、修改和分发。
+
+### 第三方开源引用
+
+本项目引用了以下开源项目，特此致谢：
+
+| 项目 | 协议 | 用途 |
+|------|:----:|------|
+| [ip2region](https://github.com/lionsoul2014/ip2region) (lionsoul2014) | Apache 2.0 | IP 地理位置数据库与查询引擎 |
+| [gin](https://github.com/gin-gonic/gin) | MIT | HTTP 框架与中间件机制 |
+| [zap](https://github.com/uber-go/zap) | MIT | 结构化日志系统 |
+
+**ip2region 数据库文件说明**：`data/ip2region_v4.xdb` 来源于 [lionsoul2014/ip2region](https://github.com/lionsoul2014/ip2region) 开源项目。该数据库为离线 IP 地理定位提供了亿级别的 IP 数据段支持，使本项目能够在不依赖外部 API 的情况下实现毫秒级 IP 地理位置查询。
+
 ---
 
+*GoNeo WAF — 澎湃启源软件开发工作室*  
+*官网：https://www.hyperqy.cn*  
 *文档版本: v1.0 | 最后更新: 2026-05-09*
