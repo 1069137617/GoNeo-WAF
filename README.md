@@ -1,4 +1,4 @@
-# GoNeo WAF 开发：澎湃启源软件开发工作室 www.hyperqy.cn
+# GoNeo WAF
 
 ## 一、项目概述
 
